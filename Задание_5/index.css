@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9c8c8;
+}
+
+.container {
+    text-align: center;
+}
+
+#counter {
+    font-size: 60px;
+    margin: 45;
+    color: black; 
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #5b4caf;
+    color: white;
+}
+
+.button:hover {
+    background-color: #120a57;
+    transform: scale(1.05);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}

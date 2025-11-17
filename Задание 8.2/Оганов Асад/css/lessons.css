@@ -1,0 +1,175 @@
+/* PHONE CHECKER */
+.phone_block {
+    background: #F4F4F4;
+    padding: 100px 0;
+}
+
+.inner_phone_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #1D546C;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.form_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_phone button {
+    width: 100%;
+    margin: 20px 0;
+    background: #1D546C;
+    color: #F4F4F4;
+    border: 2px solid #1A3D64;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form_phone button:hover {
+    background: #1A3D64;
+}
+
+/* TAB SLIDER */
+.tab_slider {
+    background: #F4F4F4;
+    padding: 100px 0;
+}
+
+.tab_content_block {
+    width: 700px;
+    border: 1px solid #1D546C;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab_content_block p {
+    color: #0C2B4E;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.tab_content_items {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.tab_content_item {
+    padding: 10px;
+    height: 30px;
+    color: #0C2B4E;
+    border: 1px solid #1D546C;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+.tab_content_item_active {
+    background: #1D546C;
+    color: #F4F4F4;
+    font-weight: 600;
+    border: 1px solid #1A3D64;
+}
+
+.tab_contents_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* CARD SWITCHER */
+.card_switcher {
+    background-color: #F4F4F4;
+    padding: 100px 0;
+}
+
+.card {
+    width: 500px;
+    height: 150px;
+    border: 1px solid #1D546C;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.card p {
+    color: #1D546C;
+    font-size: 20px;
+}
+
+.card span {
+    color: #0C2B4E;
+    font-size: 30px;
+}
+
+.inner_card_switcher {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CONVERTER */
+.converter {
+    padding: 100px 0;
+    background-color: #F4F4F4;
+}
+
+.inner_converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.inner_converter > div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* WEATHER */
+.weather {
+    padding: 100px 0;
+    background-color: #F4F4F4;
+}
+
+.inner_weather > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #0C2B4E;
+    font-size: 25px;
+}
+
+.inner_weather {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+hr {
+    width: 100%;
+    border-color: #1D546C;
+}
